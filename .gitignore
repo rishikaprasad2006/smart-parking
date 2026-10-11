@@ -1,0 +1,23 @@
+# Environment variables / credentials (CRITICAL: Do not commit)
+.env
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
